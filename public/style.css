@@ -1,0 +1,31 @@
+.inbox__people{
+    position:fixed;
+    width:33vw;  
+    height:95vh;
+    margin-left:0;
+    margin-top:0;
+    background-color:#ece5dd;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.message_form{
+    position:relative;
+    padding-left:34vw;
+    padding-top:95vh;
+}
+.inbox__messages{
+    position:fixed;
+    padding-right: 0;
+    padding-left:34vw;
+    overflow-y:auto;
+    padding-bottom:10vh;
+    padding-right:5vh;
+}
+.outgoing__message.received__message{
+    text-align:right;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
